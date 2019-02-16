@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const axios = require('axios');
 app.use(bodyParser.json());
-mongoose.connect('mongodb://chandra18:chandra18@ds135255.mlab.com:35255/orderservice',{ useNewUrlParser: true },()=>
+mongoose.connect(,()=>
 {
 console.log('connected to DB!!');
 });
