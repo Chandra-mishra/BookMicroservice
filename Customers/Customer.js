@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 
 app.use(bodyParser.json());
 //connect to our database
-mongoose.connect('mongodb://chandra18:chandra18@ds135335.mlab.com:35335/customerservice',{ useNewUrlParser: true },()=>{
+mongoose.connect(,{ useNewUrlParser: true },()=>{
     console.log('successfully connect to DB!');
 });
 
